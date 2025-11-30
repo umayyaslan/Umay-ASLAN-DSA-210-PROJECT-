@@ -10,8 +10,12 @@ Turkey's diverse seismic landscape provides a natural laboratory for studying di
 
 Research Question
 "Do small-to-medium scale destructive earthquakes significantly affect total housing sales in Balıkesir, Ankara, Istanbul, and Izmir?"
-Hypothesis
-"Small-to-medium scale destructive earthquakes do not significantly affect total housing sales in Balıkesir, Ankara, Istanbul, and Izmir at the aggregate level."
+
+Main Hypothesis (H0):
+Small-to-medium magnitude earthquakes (M4.0–6.0) do not have a statistically significant short-term impact on total housing sales in the selected provinces (Istanbul, Izmir, Balıkesir, Ankara).
+
+Alternative Hypothesis (H1):
+Small-to-medium magnitude earthquakes (M4.0–6.0) have a statistically significant short-term impact on total housing sales in at least one of the selected provinces.
 
 
 Selected Provinces Justification
