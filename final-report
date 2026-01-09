@@ -1,0 +1,32 @@
+## Interpretation of Event-Centered Pre/Post Graphs and Machine Learning Results
+
+The event-centered time-series plots provide compelling visual evidence on how internal migration dynamics respond to different types of disasters in Turkey. By explicitly marking the disaster year (`t0`), these graphs allow for a direct assessment of whether disaster events coincide with structural breaks in out-migration trends. Crucially, the visual patterns observed in the graphs align closely with the findings from the machine learning analysis, offering a coherent interpretation of migration responses across methods.
+
+### Major Earthquakes: Structural Breaks and Shock Effects
+
+For provinces affected by **major-disruptive earthquakes**, such as Kahramanmaraş, Hatay, and Van, the graphs consistently reveal pronounced deviations from pre-event trends. In these cases, out-migration growth often drops sharply or becomes highly volatile following `t0`, indicating a clear structural break rather than a temporary fluctuation.
+
+The machine learning results strongly reinforce this interpretation. While the Random Forest model outperforms the linear Ridge model overall, it still tends to **underestimate the magnitude of the extreme negative migration responses** observed after the 2023 earthquakes. This systematic underprediction suggests that major earthquakes do not merely amplify existing migration trends; instead, they **fundamentally disrupt demographic momentum**. The relationship becomes non-linear: rather than continuity, the disaster generates a localized *shock* in which typical migration patterns are constrained by large-scale housing destruction, economic collapse, and institutional disruption.
+
+In this sense, major earthquakes act as **threshold-crossing events**, producing migration dynamics that cannot be accurately captured by linear trend extrapolation alone.
+
+### Minor Earthquakes: Persistence of Pre-Existing Trends
+
+In contrast, provinces experiencing **minor or non-disruptive earthquakes** generally do not exhibit clear structural breaks in the event-centered graphs. Post-event out-migration growth typically remains within the range of pre-event variation and often reverts quickly to the existing baseline trend.
+
+This visual stability is strongly supported by the machine learning findings. The Random Forest model achieves high predictive accuracy for these events, largely driven by the dominant importance of **pre-event out-migration growth**, which accounts for approximately **64% of total feature importance**. This indicates that, in the absence of catastrophic destruction, historical migration momentum exerts strong inertia, rendering minor seismic shocks statistically insignificant in shaping medium-run migration outcomes.
+
+### Floods and Wildfires: Transient and Localized Effects
+
+The event-centered graphs for **flood and wildfire events** display heterogeneous but largely temporary responses. While some provinces experience short-term spikes or drops in out-migration growth immediately following the event, these deviations are typically short-lived and do not translate into sustained trend changes.
+
+The machine learning analysis corroborates this observation. Both `disaster_type_Flood` and `disaster_type_Wildfire` receive very low feature importance (below **1%**), suggesting that these events contribute minimally to explaining variation in post-event migration changes once baseline trends and province-specific characteristics are accounted for. These findings are consistent with recovery and return dynamics, which likely mitigate long-term displacement effects and distinguish floods and wildfires from the persistent structural damage caused by major earthquakes.
+
+### Overall Assessment: Linearity, Non-Linearity, and Threshold Effects
+
+Taken together, the event-centered graphs and machine learning diagnostics demonstrate that disaster-induced migration in Turkey is **highly non-linear and conditional on disaster severity**. A clear threshold effect emerges:
+
+- **Below the threshold** (minor earthquakes, floods, wildfires), migration dynamics are largely governed by historical trends and demographic inertia.
+- **Above the threshold** (major-disruptive earthquakes), structural breaks occur, and pre-event trends lose predictive power.
+
+These findings provide strong justification for the event-based pre/post methodology employed in this study. They also highlight the limitations of treating disasters as uniform shocks within linear modeling frameworks. Instead, a segmented analytical approach—distinguishing between *trend-continuing* minor events and *trend-breaking* major events—is essential for accurately capturing the demographic consequences of disasters and for informing effective, targeted policy responses.
