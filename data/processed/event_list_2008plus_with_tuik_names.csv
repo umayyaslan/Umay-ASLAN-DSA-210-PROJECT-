@@ -1,0 +1,13 @@
+province,disaster_type,event_name,t0,severity_class,province_tuik
+Istanbul,Earthquake,2019 Silivri Offshore / Marmara Sea Earthquake (Mw 5.8),2019-09-26,minor,İSTANBUL
+Izmir,Earthquake,2020 Aegean Sea “Samos (Sisam) / Seferihisar” Earthquake,2020-10-30,major,İZMİR
+Elazığ,Earthquake,2020 Elazığ–Sivrice Earthquake (Mw 6.8),2020-01-24,major,ELAZIĞ
+Van,Earthquake,2011 Van–Erciş Earthquake (Mw 7.2),2011-10-23,major,VAN
+Kahramanmaraş,Earthquake,6 Feb 2023 Kahramanmaraş Earthquakes (Mw 7.7 / 7.6),2023-02-06,major,KAHRAMANMARAŞ
+Hatay,Earthquake,6 Feb 2023 Kahramanmaraş Earthquakes (Hatay impact),2023-02-06,major,HATAY
+Kastamonu,Flood,11 Aug 2021 Western Black Sea Flood (Bozkurt),2021-08-11,,KASTAMONU
+Sinop,Flood,11 Aug 2021 Western Black Sea Flood (Ayancık),2021-08-11,,SİNOP
+Antalya,Wildfire,2021 Manavgat Wildfire,2021-07-28,,ANTALYA
+Muğla,Wildfire,2021 Marmaris Wildfire,2021-07-29,,MUĞLA
+Aydın,Wildfire,2021 Aydın Wildfires (Karacasu/Çine),2021-07-29,,AYDIN
+Çanakkale,Wildfire,22 Aug 2023 Çanakkale Central Wildfire (Damyeri/Kayadere),2023-08-22,,ÇANAKKALE
