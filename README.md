@@ -1,9 +1,14 @@
 # DSA210 Project: Do Disasters Increase Internal Out-Migration in Turkey? (2008–2024)
 
-Motivation
-Turkey is a country prone to various natural disasters, including earthquakes, floods, and wildfires. While the immediate physical damage of these events is often well-documented, the demographic aftershocks—specifically internal displacement—are complex.
+Personal Motivation and Background
 
-Why this project? Understanding whether major disasters trigger a permanent "moving-away" behavior (out-migration) or if the population remains resilient is crucial for urban planning and disaster management policy.
+The motivation behind this project is not only academic, but also personal. I am an active member of a university search and rescue club, and I currently serve as the president of this organization. Through both training and field experience, I have closely observed how people react psychologically and socially to disaster risks, especially earthquakes.
+
+In many cases, when a major earthquake occurs, people experience intense fear and anxiety in the first days or weeks. During this period, disaster awareness increases, and conversations about preparedness, relocation, or structural safety become more frequent. However, as time passes, this fear often fades. Daily routines return, and many individuals do not take concrete action, either because they underestimate the long-term risk or because they lack the economic and social capacity to change their living conditions.
+
+In large cities, this effect is even stronger. Urban advantages such as employment opportunities, education, healthcare, and social networks often outweigh perceived disaster risks. For many people, especially those with limited economic resources, relocating to another city is simply not a realistic option, even if they are aware of the danger. These observations raised a central question for me: do disasters actually lead to lasting population movements, or do social and economic constraints limit migration responses?
+
+This project is an attempt to explore this question empirically using internal migration data and statistical methods.
 
 Goal: The primary objective of this project is to analyze internal migration flows in Turkey to determine if major disaster events (Earthquakes, Floods, Wildfires) cause statistically significant spikes in out-migration and net-migration. Furthermore, the project aims to use Machine Learning to predict migration shifts based on event severity.
 
