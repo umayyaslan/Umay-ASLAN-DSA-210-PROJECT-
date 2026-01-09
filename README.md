@@ -1,10 +1,11 @@
 # DSA210 Project: Do Disasters Increase Internal Out-Migration in Turkey? (2008–2023)
 
-## Overview
-This project studies whether major natural disasters lead to measurable “moving-away” behavior from affected provinces in Turkey. The main focus is **internal migration**, especially **out-migration** and **net migration**, rather than total population growth (which is strongly influenced by birth-rates and long-term demographics related economic growth).
+1. Motivation
+Turkey is a country prone to various natural disasters, including earthquakes, floods, and wildfires. While the immediate physical damage of these events is often well-documented, the demographic aftershocks—specifically internal displacement—are complex.
 
-## Main Goal
-To test if **internal out-migration** changes after major disaster events and to model/predict migration changes using machine learning.
+Why this project? Understanding whether major disasters trigger a permanent "moving-away" behavior (out-migration) or if the population remains resilient is crucial for urban planning and disaster management policy.
+
+Goal: The primary objective of this project is to analyze internal migration flows in Turkey to determine if major disaster events (Earthquakes, Floods, Wildfires) cause statistically significant spikes in out-migration and net-migration. Furthermore, the project aims to use Machine Learning to predict migration shifts based on event severity.
 
 ## Research Questions
 1. Do disaster events cause a noticeable change in **out-migration** from the affected province?
@@ -43,7 +44,10 @@ Each event has a defined event date `t0` used for pre/post comparisons.
 | Province | Disaster type | Event name | t0 | severity_class |
 |---|---|---|---|---|
 | Istanbul | Earthquake | 2019 Silivri Offshore / Marmara Sea Earthquake (Mw 5.8) | 2019-09-26 | minor |
+| Istanbul | Earthquake | 11 Jan 2020 Marmara Sea / Silivri Offshore Earthquake (Mw 4.7) | 2020-01-11 | minor |
 | Izmir | Earthquake | 2020 Aegean Sea “Samos (Sisam) / Seferihisar” Earthquake | 2020-10-30 | major |
+| Izmir | Earthquake | 1 Feb 2021 Karaburun Offshore Earthquake (Mw 5.1) | 2021-02-01 | minor |
+| Izmir | Earthquake | 4 Nov 2022 Buca (İzmir) Earthquake (Mw 4.9) | 2022-11-04 | minor |
 | Elazığ | Earthquake | 2020 Elazığ–Sivrice Earthquake (Mw 6.8) | 2020-01-24 | major |
 | Van | Earthquake | 2011 Van–Erciş Earthquake (Mw 7.2) | 2011-10-23 | major |
 | Kahramanmaraş | Earthquake | 6 Feb 2023 Kahramanmaraş Earthquakes (Mw 7.7 / 7.6) | 2023-02-06 | major |
