@@ -1,6 +1,6 @@
-# DSA210 Project: Do Disasters Increase Internal Out-Migration in Turkey? (2008–2023)
+# DSA210 Project: Do Disasters Increase Internal Out-Migration in Turkey? (2008–2024)
 
-1. Motivation
+Motivation
 Turkey is a country prone to various natural disasters, including earthquakes, floods, and wildfires. While the immediate physical damage of these events is often well-documented, the demographic aftershocks—specifically internal displacement—are complex.
 
 Why this project? Understanding whether major disasters trigger a permanent "moving-away" behavior (out-migration) or if the population remains resilient is crucial for urban planning and disaster management policy.
@@ -60,7 +60,7 @@ Each event has a defined event date `t0` used for pre/post comparisons.
 | Çanakkale | Wildfire | 22 Aug 2023 Çanakkale Central Wildfire (Damyeri/Kayadere) | 2023-08-22 | — |
 
 ## Earthquake Severity Labeling Rule
-Earthquake events are labeled based on real-world impact (not magnitude alone).
+Earthquake events are labeled based on real-world impact (not magnitude alone). 
 
 - **major-disruptive:** major fatalities and/or large-scale disruption to city functions (housing, infrastructure, public services)
 - **minor/non-disruptive:** limited casualties/damage and no evidence of broad disruption
@@ -128,24 +128,3 @@ Evaluation:
 - Metrics: MAE/RMSE (regression) or F1/ROC-AUC (classification)
 - Feature importance (tree models) or coefficients (linear models)
 
-## Repository Structure
-- `data/raw/` : raw datasets (TÜİK migration, AFAD, flood/wildfire sources)
-- `data/processed/` : cleaned and merged datasets
-- `notebooks/` : notebooks (EDA, pre/post, ML)
-- `src/` : reusable functions/scripts
-- `figures/` : exported plots
-- `README.md` : this file
-
-## Expected Outputs
-- Cleaned province-level migration dataset
-- Event list file used in analysis
-- Time-series + pre/post comparison plots
-- ML model results (metrics + feature importance)
-- Short written interpretation and limitations
-
-## Next Steps (workflow)
-1. Add the migration dataset (TÜİK) to `data/raw/`
-2. Save the event list table as `data/processed/event_list.csv`
-3. Clean and merge data into a single analysis table
-4. Create EDA plots and pre/post comparison results
-5. Build ML dataset (features + target) and train baseline models
